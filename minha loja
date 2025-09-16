@@ -1,4 +1,10 @@
-minha-loja/
+minha-loja/git init
+git add .
+git commit -m "Loja online inicial (React + Tailwind + Checkout)"
+git branch -M main
+git remote add origin https://github.com/SEU_USUARIO/minha-loja.git
+git push -u origin main
+
 ├─ public/
 │   └─ index.html
 ├─ src/LojaComplete
