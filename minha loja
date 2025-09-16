@@ -1,0 +1,17 @@
+minha-loja/
+├─ public/
+│   └─ index.html
+├─ src/LojaComplete
+│   ├─ App.LojaComplete
+│   ├─ main.LojaComplete
+│   └─ index.css @tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+├─ package.json
+├─ content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
+
+└─ vite.config.js
+npm create vite@latest minha-loja -- --template react
+cd minha-loja
+npm install
